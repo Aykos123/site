@@ -87,6 +87,81 @@ export default {
   transition-duration: 1s;
 }
 
+@media (max-width: 960px) {
+  .header{
+    max-width: 960px;
+    height: 70px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
 
+  .header_right {
+    position: relative;
+    top: 20px;
+    left: 32px;
+  }
+
+  .header_left {
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 767px)
+{
+  .header{
+    max-width: 767px;
+    height: 70px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header_right {
+    position: relative;
+    top: 20px;
+    left: 32px;
+  }
+
+  .header_left {
+    position: absolute;
+    left: 170px;
+    top: -10px;
+  }
+
+  .right_btn {
+    font-size: 18px;
+  }
+
+  .header_btn a{
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_left {
+    left: 70px;
+    top: 3px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .header_right {
+    left: 28px;
+    position: relative;
+
+  }
+
+  .right_btn {
+    font-size: 9px;
+  }
+
+  .header_btn a{
+    margin-right: 6px;
+  }
+}
 
 </style>
